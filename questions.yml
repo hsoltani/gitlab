@@ -33,6 +33,12 @@ questions:
     description: "VolumePermissions image tag"
     type: string
     label: VolumePermissions Image Tag 
+- variable: certmanager-issuer.email
+  default: "me@example.com"
+  description: "certmanager issuer email"
+  type: string
+  label: certmanager issuer email   
+  group: "Certmanager Settings"
 - variable: postgresql.enabled
   default: true
   description: "Deploy a database server as part of this deployment, or set to false and configure an external database connection."
